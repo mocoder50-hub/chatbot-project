@@ -1,4 +1,3 @@
-// src/utils/Chatbot.js
 export const Chatbot = {
   getResponse: (input) => {
     if (input.toLowerCase().includes("hi")) return "Hello!";
